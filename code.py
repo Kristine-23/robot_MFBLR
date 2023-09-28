@@ -25,53 +25,28 @@ while True:
     print("Left_Motor_speed = .75")
     Left_Motor_speed = .75 #Makes left motor roll forward
     Left_Motor.throttle = Left_Motor_speed
-    time.sleep(2)
-    Left_Motor_speed = .75 #Makes left motor roll forward
-    Left_Motor.throttle = Left_Motor_speed
-    time.sleep(2)
-    Right_Motor_speed = .75 #Makes right motor roll forward
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(2)
     Right_Motor_speed = .75 #Makes right motor roll forward
     Right_Motor.throttle = Right_Motor_speed
     time.sleep(2)
     print("Left_Motor_speed = -.75")
     Left_Motor_speed = -.75 #Makes left motor roll backwards
     Left_Motor.throttle = Left_Motor_speed
-    time.sleep(2)
-    Left_Motor_speed = -.75 #Makes left motor roll backwards
-    Left_Motor.throttle = Left_Motor_speed
-    time.sleep(2)
     Right_Motor_speed = -.75 #Makes right motor roll backwards
     Right_Motor.throttle = Right_Motor_speed
     time.sleep(2)
-    Right_Motor_speed = -.75 #Makes right motor roll backwards
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(2)
-    print("Left_Motor_speed = -.75")
-    Left_Motor_speed = -.75 #Makes left motor roll backwards
-    Left_Motor.throttle = Left_Motor_speed
-    time.sleep(0)
-    Left_Motor_speed = -.75 #Makes left motor roll backwards
+    print("Left_Motor_speed = 0")
+    Left_Motor_speed = 0 #Makes left motor roll backwards
     Left_Motor.throttle = Left_Motor_speed
     time.sleep(0)
     Right_Motor_speed = .75 #Makes right motor roll backwards
     Right_Motor.throttle = Right_Motor_speed
     time.sleep(2)
-    Right_Motor_speed = .75 #Makes right motor roll backwards
+    print("Left_Motor_speed = 0")
+    Right_Motor_speed = 0 #Makes right motor roll backwards
     Right_Motor.throttle = Right_Motor_speed
-    time.sleep(2)
-    print("Left_Motor_speed = .75")
+    time.sleep(0)
     Left_Motor_speed = .75 #Makes left motor roll backwards
     Left_Motor.throttle = Left_Motor_speed
     time.sleep(2)
-    Left_Motor_speed = .75 #Makes left motor roll backwards
-    Left_Motor.throttle = Left_Motor_speed
-    time.sleep(2)
-    Right_Motor_speed = -.75 #Makes right motor roll backwards
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(0)
-    Right_Motor_speed = -.75 #Makes right motor roll backwards
-    Right_Motor.throttle = Right_Motor_speed
-    time.sleep(0)
+
 
